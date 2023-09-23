@@ -21,4 +21,7 @@ pnpm update
 # Sestaví projekt pomocí pnpm a Tauri
 pnpm tauri build
 
-powershell
+# Kopíruje build zpátky do app
+Copy-Item -Path 'src-tauri\target\*' -Destination 'C:\app\src-tauri\target' -Recurse
+
+# powershell

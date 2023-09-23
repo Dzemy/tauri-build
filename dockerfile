@@ -1,5 +1,5 @@
 # Use the latest Windows Server Core image from Microsoft.
-FROM mcr.microsoft.com/windows:ltsc2019
+FROM mcr.microsoft.com/windows/servercore:ltsc2019
 
 RUN powershell -Command "Set-ExecutionPolicy RemoteSigned -Force"
 
